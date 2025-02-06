@@ -4,23 +4,13 @@
 
 Managers of MavenTech recently implemented a new CRM software that collects their B2B sales pipeline data to track performance. While the system efficeintly collects vast amounts of data, sales managers needed an efficient way to analyze team performance without sifting through the raw numbers. This is where my expertise comes in.
 
-This project focuses on developing a Power BI dashboard intented for sales managers of MavenTech to analyze their performance for the latest 2024 fiscal quarter compared to the prior quarter as well as company-wide averages. I was able to create DAX calculations in Power BI to generate key metrics and insights and validated these calculations and ensured data accuracy using SQL queries. The dashboard also allows managers to assess the performance of their specific sales agents, enabling them to identify areas for improvement, agents who may need additional support, and can serve as a discussion guideline during individual performance evaluation periods.
+This project focuses on developing a Power BI dashboard intented for sales managers of MavenTech to analyze their performance for the latest 2024 fiscal quarter compared to the prior quarter as well as company-wide averages. I was able to create DAX calculations in Power BI to generate key metrics and insights. SQL queries were used to validate the calculations and ensure data accuracy. The dashboard also allows managers to assess the performance of their specific sales agents, enabling them to identify areas for improvement, agents who may need additional support, and can serve as a discussion guideline during individual performance evaluation periods.
 
 ## This dashboard looks to answer the following questions for MavenTech Managers:
 1. How did my team perform collectively and individually during the last fiscal quarter?
 2. How do these metrics compare to the prior quarter and the company average?
 3. Who are my top performers, and which agents may need additional support?
 4. Which products are key drivers of revenue, and which have the potential for growth?
-
-**Dataset:** https://mavenanalytics.io/challenges/maven-sales-challenge/8f59bcfa-d310-4947-b3d8-917b3cce270e
-
-The project uses various SQL techniques such as:
-- **Aggregations** (`SUM`, `COUNT`, `AVG`)
-- **Window functions** (`DENSE_RANK`)
-- **CTEs (Common Table Expressions)** for cleaner queries
-- **Temporary Tables** to store intermediate results
-- **Joins** between datasets for data enrichment
-- **Time-based filtering** for quarterly and yearly trends
 
 ## Manager Analysis
 
@@ -45,4 +35,13 @@ The project uses various SQL techniques such as:
 - The team’s $993K potential revenue and a company high 414 engaged opportunities suggests bottlenecks in the negotiation phase. Cleaning up the pipeline by closing on ongoing opportunities should be prioritized with emphasis on deals dating back to the prior year.
 - Having the most opportunities within the company, Summer should focus on identifying premium leads to maximize revenue potential and drive overall performance.
 
+## General Recommendations 
+
+- **Optimize CRM Data Utilization:** Leverage CRM insights to identify leads with high revenue potential and monitor team performance metrics more granularly.
+  
+- **Sales Training:** Focus on margin improvement, pricing discipline, and advanced negotiation techniques for agents with high discount rates.
+  
+- **Targeted Product Strategy:** Push high-value products like GTX Pro and MG Advanced while analyzing why others (e.g., MG Special) perform poorly.
+  
+- **Cross-Manager Collaboration:** Managers with overlapping challenges (e.g., high discounting) can benefit from shared training and mentorship sessions.
 ---
