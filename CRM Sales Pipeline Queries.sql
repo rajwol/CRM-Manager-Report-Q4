@@ -25,18 +25,16 @@ ORDER BY manager;
 SELECT 
 AVG(total_sales) AS all_teams_average
 FROM (
-		SELECT 
+	SELECT 
         t.manager, 
         SUM(p.close_value) AS total_sales
-		FROM 
+	FROM 
         sales_pipeline p
-		LEFT JOIN 
+	LEFT JOIN 
         sales_teams t 
-			ON p.sales_agent = t.sales_agent
-		WHERE 
-        p.close_date BETWEEN '2017-10-01' AND '2017-12-31'
-		GROUP BY 
-        t.manager
+		ON p.sales_agent = t.sales_agent
+	WHERE p.close_date BETWEEN '2017-10-01' AND '2017-12-31'
+	GROUP BY t.manager
 ) team_sales;
 
 -------
@@ -68,19 +66,15 @@ GROUP BY manager;
 SELECT 
 AVG(avg_sale_value) AS all_teams_average
 FROM (
-		SELECT 
+	SELECT 
         manager, 
         AVG(close_value) AS avg_sale_value
-		FROM 
-        sales_pipeline p
-		LEFT JOIN 
-        sales_teams t 
-			ON p.sales_agent = t.sales_agent
-		WHERE 
-        close_date BETWEEN '2017-10-01' AND '2017-12-31' -- Q4 2017
+	FROM sales_pipeline p
+	LEFT JOIN sales_teams t 
+		ON p.sales_agent = t.sales_agent
+	WHERE close_date BETWEEN '2017-10-01' AND '2017-12-31'
         AND deal_stage = 'won'
-		GROUP BY 
-        manager
+	GROUP BY manager
 ) team_avg_sales;
 
 -------
@@ -109,8 +103,7 @@ GROUP BY manager;
 --All team averages
 SELECT 
 ROUND(AVG(DATEDIFF(day, engage_date, close_date) * 1.0 / 7), 2) AS avg_weeks
-FROM 
-sales_pipeline p
+FROM sales_pipeline p
 LEFT JOIN sales_teams t 
 	ON p.sales_agent = t.sales_agent
 WHERE close_date between '2017-10-01' AND '2017-12-31';
@@ -122,8 +115,7 @@ WHERE close_date between '2017-10-01' AND '2017-12-31';
 SELECT 
 t.manager,
 COUNT(p.opportunity_id) AS total_new_opportunities
-FROM 
-sales_pipeline p
+FROM sales_pipeline p
 LEFT JOIN sales_teams t 
 	ON p.sales_agent = t.sales_agent
 WHERE p.engage_date BETWEEN '2017-10-01' AND '2017-12-31' 
