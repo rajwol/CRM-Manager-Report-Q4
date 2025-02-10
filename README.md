@@ -40,6 +40,8 @@ This project focuses on developing a Power BI dashboard intented for sales manag
 - **Optimize CRM Data Utilization:** Leverage CRM insights to identify leads with high revenue potential and monitor team performance metrics more granularly.
   
 - **Sales Training:** Focus on margin improvement, pricing discipline, and advanced negotiation techniques for agents with high discount rates.
+
+- **Pipeline Cleanup:** All managers, especially Celia and Summer should prioritize closing up on sales that date back to the prior year in order to prioritize newer deals.
   
 - **Targeted Product Strategy:** Push high-value products like GTX Pro and MG Advanced while analyzing why others (e.g., MG Special, GTK 500) perform poorly. Targeted promotion campaigns may encourage certain accounts to try the underperforming hardware.
   
