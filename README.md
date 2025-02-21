@@ -2,9 +2,9 @@
 
 ## Project Overview
 
-Managers of MavenTech recently implemented a new CRM software that collects their B2B sales pipeline data to track performance. While the system efficeintly collects vast amounts of data, sales managers needed an efficient way to analyze team performance without sifting through the raw numbers. This is where my expertise comes in.
+Managers of MavenTech recently implemented a new CRM software that collects their B2B sales pipeline data to track performance. While the system efficiently collects vast amounts of data, sales managers needed an efficient way to analyze team performance without sifting through the raw numbers. This is where my expertise comes in.
 
-This project focuses on developing a Power BI dashboard intented for sales managers of MavenTech to analyze their performance for the latest 2024 fiscal quarter compared to the prior quarter as well as company-wide averages. I was able to create DAX calculations in Power BI to generate key metrics and insights. SQL queries were used to validate the calculations and ensure data accuracy. The dashboard also allows managers to assess the performance of their specific sales agents, enabling them to identify areas for improvement, agents who may need additional support, and can serve as a discussion guideline during individual performance evaluation periods.
+This project focuses on developing a Power BI dashboard intended for sales managers of MavenTech to analyze their performance for the latest 2024 fiscal quarter compared to the prior quarter as well as company-wide averages. I was able to create DAX calculations in Power BI to generate key metrics and insights. SQL queries were used to validate the calculations and ensure data accuracy. The dashboard also allows managers to assess the performance of their specific sales agents, enabling them to identify areas for improvement, agents who may need additional support, and can serve as a discussion guideline during individual performance evaluation periods.
 
 ## This dashboard looks to answer the following questions for MavenTech Managers:
 1. How did my team perform collectively and individually during the last fiscal quarter?
