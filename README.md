@@ -12,7 +12,7 @@ This project focuses on developing a Power BI dashboard intended for sales manag
 3. Who are my top performers, and which agents may need additional support?
 4. Which products are key drivers of revenue, and which have the potential for growth?
 
-## 1. Cara Losch
+## 1. Cara Losch – Adressing Declining Opportunities & Optimizing Discounting Strategies
 ![image](https://github.com/user-attachments/assets/d8f38c62-e016-47a9-8769-69d4b8287c7c)
 
 
@@ -30,7 +30,7 @@ This project focuses on developing a Power BI dashboard intended for sales manag
 
 ---
 
-## 2. Celia Rouche
+## 2. Celia Rouche – Unlocking $1M in Potential Revenue & Strengthening MG Advanced Performance
 ![image](https://github.com/user-attachments/assets/321dfa1f-89a5-46de-a25d-d2371cf9bc57)
 
 
@@ -83,7 +83,7 @@ This project focuses on developing a Power BI dashboard intended for sales manag
 
 ---
 
-## 5. Rocco Neubert
+## 5. Rocco Neubert - Leveraging GTX Pro for Growth & Addressing High Discounting Practices
 ![image](https://github.com/user-attachments/assets/e88f6794-dbf2-4198-aa26-3edded4916fa)
 
 ### Key Metrics:
@@ -99,7 +99,7 @@ This project focuses on developing a Power BI dashboard intended for sales manag
 
 ---
 
-## 6. Summer Sewald
+## 6. Summer Sewald – Maximizing High Engaged Opportunities
 ![image](https://github.com/user-attachments/assets/4d7b99c7-a11f-42f5-9614-36f6296e012d)
 
 ### Key Metrics:
