@@ -110,7 +110,10 @@ This project focuses on developing a Power BI dashboard intended for sales manag
 
 ### Recommendations:
 - **Capitalize on bottleneck sales** - With a company high of 414 opportunites stuck in the negotiation phase, priotity should be placed on making the most of ongoing deals to maximize team revenue and performance. Strong emphasis should be placed on deals dating back to the prior year.
-- **
+- **Address High Discounting** - While revenue is on an uptrend, heavy discounting across agents may be reducing profitability, as indicated by the average sales value ($2,248). By introducing value-based sales training and structured discounting policies, the team can ensure profitability and help agents close deals at better prices.
+
+---
+
 ## General Recommendations 
 
 - **Optimize CRM Data Utilization:** Leverage CRM insights to identify leads with high revenue potential and monitor team performance metrics more granularly.
@@ -121,5 +124,5 @@ This project focuses on developing a Power BI dashboard intended for sales manag
   
 - **Targeted Product Strategy:** Push high-value products like GTX Pro and MG Advanced while analyzing why others (e.g., MG Special, GTK 500) perform poorly. Targeted promotion campaigns may encourage certain accounts to try the underperforming hardware.
   
-- **Cross-Manager Collaboration:** Managers with overlapping challenges (e.g., high discounting) can benefit from shared training and mentorship sessions from other sales agents.
+- **Cross-Manager Collaboration:** Managers with overlapping challenges (e.g., high discounting, low sale value) can benefit from shared training and mentorship sessions from other sales agents.
 ---
