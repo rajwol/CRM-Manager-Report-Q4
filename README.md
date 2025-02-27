@@ -12,6 +12,8 @@ This project focuses on developing a Power BI dashboard intended for sales manag
 3. Who are my top performers, and which agents may need additional support?
 4. Which products are key drivers of revenue, and which have the potential for growth?
 
+## [Click Here to Explore the Dashboard](https://tinyurl.com/CRM-Performance-Dashboard)
+
 ## 1. Cara Losch – Adressing Declining Opportunities & Optimizing Discounting Strategies
 ![image](https://github.com/user-attachments/assets/d8f38c62-e016-47a9-8769-69d4b8287c7c)
 
